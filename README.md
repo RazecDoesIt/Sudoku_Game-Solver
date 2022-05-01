@@ -2,7 +2,7 @@ Sudoku Game (playable) and solver.
 
 
 So, this is my first version (possible for a while) of attempting this monstruosity. I took this challenge when I started learning Python and it was a nightmare.
-It's still is. This code works, it's very fast and not too impossible to read and learn. It teached me a lot.
+It still is. This code works, it's very fast and not too impossible to read and learn. It teached me a lot.
 
 
 But what's the difference between this and any other code out there you may ask? Well, to be honest with whoever is reading this: none.

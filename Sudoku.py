@@ -1,7 +1,6 @@
 import collections
 import copy
 import sys
-
 import pygame
 import tkinter as tk
 import numpy as np
@@ -108,7 +107,7 @@ def select_difficulty_win():
 
 
 def remove_numbers(d, diff):
-    if d == 1:
+    if d == 1: # difficulty 1
         random_elements = random.randint(31, 40)
         i = 0
         while i <= random_elements:
@@ -117,7 +116,7 @@ def remove_numbers(d, diff):
             board[x][y] = 0
             i += 1
         diff.destroy()
-    if d == 2:
+    if d == 2: # difficulty 2
         random_elements = random.randint(41, 50)
         i = 0
         while i < random_elements:
@@ -126,7 +125,7 @@ def remove_numbers(d, diff):
             board[random_x][random_y] = 0
             i += 1
         diff.destroy()
-    if d == 3:
+    if d == 3: # difficulty 3
         random_elements = random.randint(51, 70)
         i = 0
         while i < random_elements:
@@ -234,7 +233,7 @@ def check_board(play_board):
             row1 = row_array.tolist()
             row_flat = [item for sublist in row1 for item in sublist]
             row_sum = sum(row_flat)
-            if row_sum != 45: # every row, col, and sqr must sum 45 (sum btw 1 to 9)
+            if row_sum != 45: # every row, col, and sqr must sum 45 (sum 1 to 9)
                 wrong += 1
                 break
             else:
@@ -301,7 +300,7 @@ def draw_numbers():
                 sudoku_challenge = board[row][col]
                 numb_text = NUMBER_FONT.render(str(sudoku_challenge), True, BLACK)
                 WIN.blit(numb_text, ((col * 100 + offset), (row * 100 + offset / 2)))
-            elif board[row][col] == '⠀': # empty character btw ''
+            elif board[row][col] == '⠀': # empty character between ''
                 sudoku_challenge = 0
                 numb_text = NUMBER_FONT.render(str(sudoku_challenge), True, BLACK)
                 WIN.blit(numb_text, ((col * 100 + offset), (row * 100 + offset / 2)))

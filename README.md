@@ -13,7 +13,16 @@ Even if the chances of getting the same board ramdomly generated twice are low, 
 is tied to the difficulty selected) and making that even if you have more than one board possible, it'll be able to tell you if you are right or wrong.
 
 
-This was definitely a very fun project and learning experience. I only learned the basics of arrays because of this.
+And what are the flaws of my code?
+
+-> you MUST NOT click on the numbers that already are on the board... I can solve this for now and only God knows why.
+-> it's poorly optimized, it runs smoothly, but it can perform even better with some optimization.
+
+
+At least I hope that if you stumble upon this code and are struggling with anything related to it, may this help and teach you if it's possible.
+
+This was definitely a very fun project and learning experience.
 
 One day, in the far far future, I might re-do this, just to prove to my future and past self that I can.
+
 RazecDoesIt.

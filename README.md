@@ -15,7 +15,7 @@ is tied to the difficulty selected) and making that even if you have more than o
 
 And what are the flaws of my code?
 
--> you MUST NOT click on the numbers that already are on the board... I can solve this for now and only God knows why.
+-> you MUST NOT click on the numbers that already are on the board... I can't solve this for now and only God knows why.
 
 -> it's poorly optimized, it runs smoothly, but it can perform even better with some optimization.
 
